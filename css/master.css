@@ -1,0 +1,76 @@
+body {
+background: pink;
+}
+
+header {
+  background: pink;
+  display: flex;
+  align-items: center;
+}
+
+section{
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  min-height: 30vh
+}
+
+
+#section01{
+  background: url('images/logo01.jpg')no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section01 h1{
+  color: pink;
+  font-size: 8em;
+  text-align: center;
+  justify-content: center;
+}
+
+#section02 h2{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border-top: 3px;
+  }
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  background: white;
+  padding: 1em;
+}
+
+figure {
+  border: 0px solid rgb(0, 0, 0);
+  padding: 1em;
+
+}
+
+.inner-content {
+  background: pink;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+#figure {
+  display: flex;
+  background-size:
+  
+}
